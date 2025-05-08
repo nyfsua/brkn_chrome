@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>brknbrds – lagos</title>
+  <link rel="stylesheet" href="src/main.css">
+  <script src="grained.js"></script>
+</head>
+
+<body>
+  <div id="loader" class="loader">
+    <!-- SVG Logo -->
+    <img src="src/img/brkn_logo.png"
+         alt="BRKNBRDS Logo"
+         class="loader__logo">
+
+    <!-- Enter button -->
+    <img
+    src="src/img/enter_button.svg"
+    alt="Enter Site"
+    id="enter-button"
+    class="loader__enter"
+  />
+
+    <!-- Disclaimer text -->
+    <img
+    src="src/img/disclaimer.svg"
+    alt="By entering this site, you agree to the analytics cookies."
+    class="loader__disclaimer"
+    id="loader-disclaimer"
+  />
+
+    <!-- SVG Subjects list -->
+    <img src="src/img/brkn_motto.png"
+         alt="Site subjects list"
+         class="motto">
+  </div>
+
+  <!-- noise overlay -->
+  <canvas id="noise-canvas" class="loader__noise"></canvas>
+
+
+  <script src="src/main.js"></script>
+</body>
+</html>
