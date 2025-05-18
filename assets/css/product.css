@@ -23,6 +23,7 @@
     color: #111111;
     overflow-x: hidden;
     height: 100vh;
+    scroll-behavior: smooth;
     }
 
     @font-face {
@@ -330,7 +331,7 @@
 
    .product-detail__gallery {
     order: 1;
-    flex: 0 0 50vh;        /* fixed 50% height */
+    flex: 0 0 40vh;        /* fixed 50% height */
     border-right: none;
     border-bottom: 1px solid #FFFFFF;
 
