@@ -321,15 +321,15 @@
   .loader__disclaimer {
     position: absolute !important;
     bottom: var(--edge-gap);
-    transform: translateX(-50%);
-    pointer-events: none;   
-    height: 2vh;           
-    width: auto;
-    display: block;
-    text-align: center;
-    left: 20%;
-    right: 0;
-    padding: 0 var(--edge-gap);
+    left: 0; 
+    right: 0;                   /* stretch across viewport */
+    padding: 0 var(--edge-gap); /* keep your edge‐gaps */
+    box-sizing: border-box;
+    pointer-events: none;
+    text-align: center;         /* center its inline content */
+    width: 100vw;
+    height: 2vh;
+    /* no height needed unless you want to cap it */
   }
 
   .site-nav {
