@@ -1,46 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>brknbrds – lagos</title>
-  <link rel="stylesheet" href="src/main.css">
-  <script src="grained.js"></script>
-</head>
+  <head>
 
-<body>
-  <div id="loader" class="loader">
-    <!-- SVG Logo -->
-    <img src="src/img/brkn_logo.png"
-         alt="BRKNBRDS Logo"
-         class="loader__logo">
+    <title>brknbrds – lagos</title>
 
-    <!-- Enter button -->
-    <img
-    src="src/img/enter_button.svg"
-    alt="Enter Site"
-    id="enter-button"
-    class="loader__enter"
-  />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta content="propagating skateboarding in africa." name="description"/>
+    <meta content="brknbrds lagos." property="og:title"/>
+    <meta content="propagating skateboarding in africa." property="og:description"/>
+    <meta content="brknbrds lagos." property="twitter:title"/>
+    <meta content="propagating skateboarding in africa." property="twitter:description"/>
+    <meta property="og:type" content="website"/>
+    <meta content="summary_large_image" name="twitter:card"/>
 
-    <!-- Disclaimer text -->
-    <img
-    src="src/img/disclaimer.svg"
-    alt="By entering this site, you agree to the analytics cookies."
-    class="loader__disclaimer"
-    id="loader-disclaimer"
-  />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link data-n-head="ssr" rel="icon" type="image/x-icon" href="assets/img/favicon.png">
 
-    <!-- SVG Subjects list -->
-    <img src="src/img/brkn_motto.png"
-         alt="Site subjects list"
-         class="motto">
-  </div>
+  </head>
 
-  <!-- noise overlay -->
-  <canvas id="noise-canvas" class="loader__noise"></canvas>
+  <body class="no-scroll">
 
+    <div id="loader" class="loader">
 
-  <script src="src/main.js"></script>
-</body>
+      <img src="assets/img/favicon.png" alt="emblem" class="homepage__rotator" id="rotator" />
+
+      <img src="assets/img/brkn_logo.png" alt="BRKNBRDS Logo" class="loader__logo" />
+
+      <img src="assets/img/enter_button.svg" alt="Enter Site" id="enter-button" class="loader__enter" />
+
+      <img src="assets/img/disclaimer.svg" alt="By entering this site, you agree to the analytics cookies." class="loader__disclaimer" id="loader-disclaimer" />
+
+      <img src="assets/img/brkn_motto.png" alt="Skateboarding Streetwear Woodworking Itutu & Lagos" class="motto"/>
+
+    </div>
+
+    <nav class="site-nav">
+
+      <div class="site-nav__left">
+
+        <input type="search" class="site-nav__search" placeholder="GIRAN S4BR 2025" aria-label="Search products" />
+
+      </div>
+    
+      <ul class="site-nav__list">
+
+        <li class="site-nav__item">
+
+          <a href="#product-page" class="site-nav__link">
+
+            Home
+          
+          </a>
+
+        </li>
+
+        <li class="site-nav__item">
+
+          <a href="/about" class="site-nav__link">
+
+            About
+
+          </a>
+
+        </li>
+
+        <li class="site-nav__item">
+
+          <a href="/sessions" class="site-nav__link">
+            
+            Sessions
+
+          </a>
+
+        </li>
+
+        <li class="site-nav__item">
+
+          <a href="https://90642.org/" class="site-nav__link">
+            
+            Lab
+
+          </a>
+
+        </li>
+
+      </ul>
+    
+      <div class="site-nav__right">
+
+        <a href="/cart" class="site-nav__link">
+          
+          Cart
+
+        </a>
+
+      </div>
+
+    </nav>
+    
+
+    <main class="product-page">
+      
+      <header class="product-page__header">
+
+        <img class="product-page__title" src="assets/img/brkn_logo.png"/>
+
+      </header>
+  
+      <!-- 4×10 product grid (populated by JS) -->
+      <div class="product-grid" id="product-grid"></div>
+
+      <div id="tooltip"></div>
+
+    </main>
+
+    <script src="assets/js/main.js"></script>
+
+  </body>
+
 </html>

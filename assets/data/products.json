@@ -1,0 +1,131 @@
+[
+    {
+      "slug": "giran-s4br-deck",
+      "name": "Giran S4BR Deck",
+      "price": "₦100,000",
+      "description": "Gritty street inspired Skateboard Deck with Camo design.",
+      "images": [ "giran.png", "giran.png" ],
+      "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
+
+      "sections": [
+        { "title": "Product Details", "content": "Gritty street inspired Skateboard Deck with Camo design." },
+
+        { "title": "Shipping & Returns", "content": "We ship to all states in Nigeria. We offer 7 days return policy." },
+
+        { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
+
+      ]
+    },
+
+    {
+        "slug": "itutu-s4br-deck",
+        "name": "Itutu S4BR Deck",
+        "price": "₦100,000",
+        "description": "Wizkid.",
+        "images": [ "itutu.png", "itutu.png" ],
+        "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
+  
+        "sections": [
+          { "title": "Product Details", "content": "Wizkid." },
+  
+          { "title": "Shipping & Returns", "content": "We ship to all states in Nigeria. We offer 7 days return policy." },
+  
+          { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
+  
+        ]
+    },
+
+    {
+        "slug": "gxng-s4br-deck",
+        "name": "Gxng S4BR Deck",
+        "price": "₦100,000",
+        "description": "Community.",
+        "images": [ "gxng.png", "gxng.png" ],
+        "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
+  
+        "sections": [
+          { "title": "Product Details", "content": "Community." },
+  
+          { "title": "Shipping & Returns", "content": "We ship to all states in Nigeria. We offer 7 days return policy." },
+  
+          { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
+  
+        ]
+      },
+
+      {
+        "slug": "wura-s4br-deck",
+        "name": "Wura S4BR Deck",
+        "price": "₦100,000",
+        "description": "Gold.",
+        "images": [ "wura.png", "wura.png" ],
+        "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
+  
+        "sections": [
+          { "title": "Product Details", "content": "Gold." },
+  
+          { "title": "Shipping & Returns", "content": "We ship to all states in Nigeria. We offer 7 days return policy." },
+  
+          { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
+  
+        ]
+      },
+
+      {
+        "slug": "legacy-s4br-deck",
+        "name": "Legacy S4BR Deck",
+        "price": "₦100,000",
+        "description": "Gritty street inspired Skateboard Deck with Camo design.",
+        "images": [ "legacy.png", "legacy.png" ],
+        "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
+  
+        "sections": [
+          { "title": "Product Details", "content": "Gritty street inspired Skateboard Deck with Camo design." },
+  
+          { "title": "Shipping & Returns", "content": "We ship to all states in Nigeria. We offer 7 days return policy." },
+  
+          { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
+  
+        ]
+      },
+
+      {
+        "slug": "opal-s4br-deck",
+        "name": "Opal S4BR Deck",
+        "price": "₦100,000",
+        "description": "Gritty street inspired Skateboard Deck with Camo design.",
+        "images": [ "opal.png", "opal.png" ],
+        "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
+  
+        "sections": [
+          { "title": "Product Details", "content": "Gritty street inspired Skateboard Deck with Camo design." },
+  
+          { "title": "Shipping & Returns", "content": "We ship to all states in Nigeria. We offer 7 days return policy." },
+  
+          { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
+  
+        ]
+      },
+
+      {
+        "slug": "maelstrom-s4br-deck",
+        "name": "Maelstrom S4BR Deck",
+        "price": "₦100,000",
+        "description": "Designed by Leah Okprima for BrknBrds.",
+        "images": [ "maelstrom.png", "maelstrom.png" ],
+        "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
+  
+        "sections": [
+          { "title": "Product Details", "content": "Designed by Leah Okprima for BrknBrds." },
+  
+          { "title": "Shipping & Returns", "content": "We ship to all states in Nigeria. We offer 7 days return policy." },
+  
+          { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
+  
+        ]
+      }
+    
+    
+
+  ]
+  
