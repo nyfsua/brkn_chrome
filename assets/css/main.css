@@ -6,8 +6,8 @@
   
   html, body {
     width: 100%;
-    height: 100%;
-    overflow: hidden;
+    height: auto;
+    overflow-y: auto;
     font-family: 'Helvetica', sans-serif;
     font-size: 0.75rem;
     background: #BBBBBB;
@@ -35,7 +35,7 @@
     position: fixed;
     inset: 0;
     background-color: #BBBBBB;
-    ;
+    overflow: hidden;    /* only lock scroll while loader is up */
   }
 
   .homepage__rotator {
