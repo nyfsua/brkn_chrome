@@ -345,8 +345,8 @@
   .product-detail__thumbnails {
     display: flex;
     gap: 1rem;
-    margin-top: 6vh;
-    margin-bottom: 6vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
   }
   .product-detail__thumbnails img {
     width: 4rem;
