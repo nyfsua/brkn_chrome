@@ -340,13 +340,13 @@
     width: 64vw;
     height: auto;
     object-fit: contain;
-    margin-top: 4vh;
+    margin-top: 2vh;
   }
   .product-detail__thumbnails {
     display: flex;
     gap: 1rem;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
+    margin-top: 3.2vh;
+    margin-bottom: 3.2vh;
   }
   .product-detail__thumbnails img {
     width: 4rem;
