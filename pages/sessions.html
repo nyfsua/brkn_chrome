@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>sessions - brknbrds</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta content="propagating skateboarding in africa." name="description"/>
+    <meta content="brknbrds lagos." property="og:title"/>
+    <meta content="propagating skateboarding in africa." property="og:description"/>
+    <meta content="brknbrds lagos." property="twitter:title"/>
+    <meta content="propagating skateboarding in africa." property="twitter:description"/>
+    <meta property="og:type" content="website"/>
+    <meta content="summary_large_image" name="twitter:card"/>
+
+    <link rel="stylesheet" href="/assets/css/sessions.css" />
+    <link data-n-head="ssr" rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
+
+  <style>
+    /* Page-specific calendar styling */
+    .sessions-page {
+      display: flex;
+      flex-direction: column;
+      height: calc(100vh - 4rem); /* account for nav height */
+    }
+    .sessions-page__iframe {
+      flex: 1;
+      border: none;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+
+    <nav class="site-nav">
+
+        <div class="site-nav__left">
+  
+          <input type="search" class="site-nav__search" placeholder="SEARCH..." aria-label="Search products" />
+  
+        </div>
+      
+        <ul class="site-nav__list">
+  
+          <li class="site-nav__item">
+  
+            <a href="/index.html" class="site-nav__link">
+  
+              Home
+            
+            </a>
+  
+          </li>
+  
+          <li class="site-nav__item">
+  
+            <a href="/pages/about.html" class="site-nav__link">
+  
+              About
+  
+            </a>
+  
+          </li>
+  
+          <li class="site-nav__item">
+  
+            <a href="/pages/sessions.html" class="site-nav__link">
+              
+              Sessions
+  
+            </a>
+  
+          </li>
+  
+          <li class="site-nav__item">
+  
+            <a href="https://90642.org/" class="site-nav__link">
+              
+              Lab
+  
+            </a>
+  
+          </li>
+  
+        </ul>
+      
+        <div class="site-nav__right">
+  
+          <a href="/cart" class="site-nav__link">
+            
+            Cart
+  
+          </a>
+  
+        </div>
+  
+    </nav>
+
+  <main class="sessions-page">
+    <!-- Replace the src below with your actual Google Calendar embed URL -->
+    <iframe
+      src="https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_ID&ctz=Africa%2FNairobi"
+      class="sessions-page__iframe"
+      title="BRKNBRDS Sessions Calendar"
+    ></iframe>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

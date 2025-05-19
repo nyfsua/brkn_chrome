@@ -1,0 +1,144 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+    font-family: 'Vetica', sans-serif;
+    font-size: 0.75rem;
+    background: #BBBBBB;
+    color: #BBBBBB;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  /* Root spacing */
+  :root {
+    --edge-gap: 2vw;
+    --grid-gap: 0.5vw;
+
+  }
+
+  @font-face {
+    font-family: 'Vetica';
+    src: url(/assets/fonts/Geist-Bold.woff) format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  .site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333333;
+    padding: 1rem var(--edge-gap);
+    color: #FFFFFF;
+    font-size: 0.75rem;           /* matches the small text in your mock */
+    font-family: 'Vetica', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .site-nav__left,
+  .site-nav__right {
+    flex: 0 0 auto;
+  }
+  
+  /* Search input */
+  .site-nav__search {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font: inherit;
+    padding: 0.25rem 0;
+    width: 12rem;                  /* adjust to taste */
+    outline: none;
+  }
+  
+  .site-nav__search::placeholder {
+    color: #6a6868;
+  }
+  
+  /* Center links */
+  .site-nav__list {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+  }
+  
+  .site-nav__item { }
+  
+  .site-nav__link {
+    color: #FFFFFF;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  
+  /* Shop count styling */
+  .site-nav__shop-count {
+    font-weight: bold;
+    /* if you fetch live data, you’ll update this span’s text */
+  }
+
+  /* ---- two-column layout ---- */
+.about-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--edge-gap);
+    padding: var(--edge-gap);
+    min-height: 100vh;
+  }
+  
+  /* ---- left gallery is sticky ---- */
+  .about-page__gallery {
+    position: sticky;
+    top: var(--edge-gap);
+    align-self: start;
+  }
+  .about-page__gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  /* ---- right info scrolls ---- */
+  .about-page__info {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-right: var(--edge-gap);
+  }
+  /* each section at least viewport-height tall so it triggers image swap */
+  .about-section {
+    min-height: 100vh;
+  }
+  
+  /* ---- responsive: stack on narrow screens ---- */
+  @media (max-width: 768px) {
+    .about-page {
+      display: flex;
+      flex-direction: column;
+    }
+    .about-page__gallery,
+    .about-page__info {
+      position: static;
+      width: 100%;
+    }
+    .about-page__info {
+      order: 2;
+      height: auto;
+    }
+    .about-page__gallery {
+      order: 1;
+      margin-bottom: var(--edge-gap);
+    }
+  }

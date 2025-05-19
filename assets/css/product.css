@@ -127,9 +127,10 @@
     border-right: 1px solid #FFFFFF;
   }
   #main-img {
-    width: 100%;
+    width: 72%;
     height: auto;
     object-fit: contain;
+    margin-top: 6.4vh;
   }
   .product-detail__thumbnails {
     display: flex;
