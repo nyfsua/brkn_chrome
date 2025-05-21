@@ -4,7 +4,7 @@
       "name": "Giran S4BR Deck",
       "price": "₦100,000",
       "description": "Gritty street inspired Skateboard Deck with Camo design.",
-      "images": [ "giran.png", "giran.png" ],
+      "images": [ "giran.png", "gripside.png" ],
       "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
 
       "sections": [
@@ -22,7 +22,7 @@
         "name": "Itutu S4BR Deck",
         "price": "₦100,000",
         "description": "Wizkid.",
-        "images": [ "itutu.png", "itutu.png" ],
+        "images": [ "itutu.png", "gripside.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [
@@ -40,7 +40,7 @@
         "name": "Gxng S4BR Deck",
         "price": "₦100,000",
         "description": "Community.",
-        "images": [ "gxng.png", "gxng.png" ],
+        "images": [ "gxng.png", "gripside.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [
@@ -58,7 +58,7 @@
         "name": "Wura S4BR Deck",
         "price": "₦100,000",
         "description": "Gold.",
-        "images": [ "wura.png", "wura.png" ],
+        "images": [ "wura.png", "gripside.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [
@@ -76,7 +76,7 @@
         "name": "Legacy S4BR Deck",
         "price": "₦100,000",
         "description": "Gritty street inspired Skateboard Deck with Camo design.",
-        "images": [ "legacy.png", "legacy.png" ],
+        "images": [ "legacy.png", "gripside.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [
@@ -94,7 +94,7 @@
         "name": "Opal S4BR Deck",
         "price": "₦100,000",
         "description": "Gritty street inspired Skateboard Deck with Camo design.",
-        "images": [ "opal.png", "opal.png" ],
+        "images": [ "opal.png", "gripside.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [
@@ -112,7 +112,7 @@
         "name": "Maelstrom S4BR Deck",
         "price": "₦100,000",
         "description": "Designed by Leah Okprima for BrknBrds.",
-        "images": [ "maelstrom.png", "maelstrom.png" ],
+        "images": [ "maelstrom.png", "gripside.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [
