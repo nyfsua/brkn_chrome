@@ -72,29 +72,11 @@
       },
 
       {
-        "slug": "itutu-s4br-deck",
-        "name": "Itutu S4BR Deck",
-        "price": "₦FS",
-        "description": "This one is not available for public sale unfortunately. Tell Wizkid to come and buy.",
-        "images": [ "itutu.png", "gripside.png" ],
-        "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
-  
-        "sections": [
-          { "title": "Product Details", "content": "Wizkid." },
-  
-          { "title": "Shipping & Returns", "content": "We ship to all states in Nigeria. We offer 7 days return policy." },
-  
-          { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
-  
-        ]
-    },
-
-      {
         "slug": "oraca-s4br-socks",
         "name": "Oraca S4BR Socks",
         "price": "₦10,000",
         "description": "Community.",
-        "images": [ "oraca-black.png", "oraca-white.png" ],
+        "images": [ "oraca-black.png", "oraca-black.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [
@@ -108,12 +90,30 @@
       },
 
       {
+        "slug": "000-s3br-shirt",
+        "name": "000 S3BR Shirt",
+        "price": "₦20,000",
+        "description": "000 000 000",
+        "images": [ "000.png", "000-front.png" ],
+        "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
+  
+        "sections": [
+          { "title": "Product Details", "content": "Wizkid." },
+  
+          { "title": "Shipping & Returns", "content": "We ship to all states in Nigeria. We offer 7 days return policy." },
+  
+          { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
+  
+        ]
+    },
+
+      {
         "slug": "irony-s4br-socks",
         "name": "Irony S4BR Socks",
         "price": "₦10,000",
         "description": "Community.",
-        "images": [ "irony-white.png", "irony-black.png" ],
-        "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
+        "images": [ "irony-white.png", "irony-white.png" ],
+        "delivery": { "from": "2025-05-29", "to":   "2025-05-22" },
   
         "sections": [
           { "title": "Product Details", "content": "Community." },
