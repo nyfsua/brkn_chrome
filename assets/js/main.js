@@ -53,7 +53,7 @@ fetch('/api/products/count')
       { file: 'oraca-black.png',   name: 'Oraca S4BR Socks',   price: '₦10,000', slug: 'oraca-s4br-socks' },
       { file: 'maelstrom.png', name: 'Maelstrom S4BR Deck', price: '₦100,000', slug: 'maelstrom-s4br-deck' },
       { file: 'legacy.png', name: 'Legacy S4BR Deck', price: '₦100,000', slug: 'legacy-s4br-deck' },
-      { file: 'convergence-black.png',   name: 'Convergence S4BR Windbreaker',   price: '₦Prototype', slug: 'convergence-s4br-windbreaker' },
+      { file: 'convergence-front.png',   name: 'Convergence S4BR Windbreaker',   price: '₦Prototype', slug: 'convergence-s4br-windbreaker' },
 
       { file: 'opal.png', name: 'Opal S4BR Deck', price: '₦100,000', slug: 'opal-s4br-deck' },
       // …add any other unique product definitions here…

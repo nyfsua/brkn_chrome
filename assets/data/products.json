@@ -130,7 +130,7 @@
         "name": "Sticker Pack S4BR",
         "price": "₦5,000",
         "description": "Community.",
-        "images": [ "stickers.png", "stickers.png" ],
+        "images": [ "stickers.png", "stickers-sans.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [
@@ -200,9 +200,9 @@
       {
         "slug": "convergence-s4br-windbreaker",
         "name": "Convergence S4BR Windbreaker",
-        "price": "₦Prototype",
-        "description": "Community.",
-        "images": [ "convergence-black.png", "convergence-white.png" ],
+        "price": "₦50,000",
+        "description": "Polyester Windbreaker. Designed for the West African climate.",
+        "images": [ "convergence-front.png", "convergence-back.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [
