@@ -11,6 +11,39 @@ document.addEventListener('DOMContentLoaded', () => {
       app.hidden = false;
     }, { once: true });
 
+    // Called whenever we need to skip loader
+  function showAppInstantly() {
+    loader.style.display = 'none';
+    app.hidden = false;
+  }
+
+  // If we've already hidden the loader this session, do it now
+  if (sessionStorage.getItem('loaderHidden')) {
+    showAppInstantly();
+  } else {
+    // First visit: wait for user to enter
+    enterButton.addEventListener('click', () => {
+      loader.classList.add('loader--loaded');
+      loader.addEventListener('transitionend', () => {
+        // hide loader, reveal app
+        loader.style.display = 'none';
+        app.hidden = false;
+        // remember for the rest of this session
+        sessionStorage.setItem('loaderHidden', 'true');
+      }, { once: true });
+    });
+  }
+});
+
+// Also handle page restore from bfcache (back/forward)
+window.addEventListener('pageshow', (e) => {
+  if (e.persisted && sessionStorage.getItem('loaderHidden')) {
+    const loader = document.getElementById('loader');
+    const app    = document.getElementById('app');
+    loader.style.display = 'none';
+    app.hidden = false;
+  }
+
     document.body.classList.remove('no-scroll');
   });
 
