@@ -85,11 +85,13 @@ fetch('/api/products/count')
       { file: 'stickers.png', name: 'Stciker Pack S4BR', price: '₦5,000', slug: 'sticker-pack-s4br' },
       { file: 'irony-white.png', name: 'Irony S4BR Socks', price: '₦10,000', slug: 'irony-s4br-socks' },
       { file: 'oraca-black.png',   name: 'Oraca S4BR Socks',   price: '₦10,000', slug: 'oraca-s4br-socks' },
-      { file: 'wura.png', name: 'Wura S4BR Deck', price: '₦100,000', slug: 'wura-s4br-deck' },
       { file: 'maelstrom.png', name: 'Maelstrom S4BR Deck', price: '₦100,000', slug: 'maelstrom-s4br-deck' },
       { file: 'legacy.png', name: 'Legacy S4BR Deck', price: '₦100,000', slug: 'legacy-s4br-deck' },
 
       { file: 'opal.png', name: 'Opal S4BR Deck', price: '₦100,000', slug: 'opal-s4br-deck' },
+
+      { file: 'wura.png', name: 'Wura S4BR Deck', price: '₦100,000', slug: 'wura-s4br-deck' },
+
       // …add any other unique product definitions here…
     ];
   
