@@ -162,6 +162,25 @@
       },
 
       {
+        "slug": "generis-s4br-wheel",
+        "name": "Generis S4BR Wheel",
+        "price": "₦10,000",
+        "description": "Gold.",
+        "images": [ "wheel.png", "wheel.png" ],
+        "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
+  
+        "sections": [
+          { "title": "Product Details", "content": "Gold." },
+  
+          { "title": "Shipping & Returns", "content": "We ship to all states in Nigeria. We offer 7 days return policy." },
+  
+          { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
+  
+        ]
+      },
+
+
+      {
         "slug": "legacy-s4br-deck",
         "name": "Legacy S4BR Deck",
         "price": "₦100,000",

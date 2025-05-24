@@ -76,15 +76,16 @@ fetch('/api/products/count')
     // 1) Generate the 40 product tiles
     const products = [
       { file: 'giran.png',   name: 'Giran S4BR Deck',   price: '₦100,000', slug: 'giran-s4br-deck' },
-      { file: 'itutu.png', name: 'Itutu S4BR Deck', price: '₦FS', slug: 'itutu-s4br-deck' },
+      { file: 'wheel.png', name: 'Generis S4BR Wheel', price: '₦10,000 x 4', slug: 'generis-s4br-wheel' },
       { file: 'fs.png', name: 'FS S4BR Shirt', price: '₦20,000', slug: 'fs-s4br-shirt' },      
       { file: 'convergence-front.png',   name: 'Convergence S4BR Windbreaker',   price: '₦50,000', slug: 'convergence-s4br-windbreaker' },
+      { file: 'itutu.png', name: 'Itutu S4BR Deck', price: '₦FS', slug: 'itutu-s4br-deck' },
       { file: 'gxng.png', name: 'Gxng S4BR Deck', price: '₦100,000', slug: 'gxng-s4br-deck' },
       { file: '000.png', name: '000 S3BR Shirt', price: '₦20,000', slug: '000-s3br-shirt' },
       { file: 'stickers.png', name: 'Stciker Pack S4BR', price: '₦5,000', slug: 'sticker-pack-s4br' },
-      { file: 'wura.png', name: 'Wura S4BR Deck', price: '₦100,000', slug: 'wura-s4br-deck' },
       { file: 'irony-white.png', name: 'Irony S4BR Socks', price: '₦10,000', slug: 'irony-s4br-socks' },
       { file: 'oraca-black.png',   name: 'Oraca S4BR Socks',   price: '₦10,000', slug: 'oraca-s4br-socks' },
+      { file: 'wura.png', name: 'Wura S4BR Deck', price: '₦100,000', slug: 'wura-s4br-deck' },
       { file: 'maelstrom.png', name: 'Maelstrom S4BR Deck', price: '₦100,000', slug: 'maelstrom-s4br-deck' },
       { file: 'legacy.png', name: 'Legacy S4BR Deck', price: '₦100,000', slug: 'legacy-s4br-deck' },
 
