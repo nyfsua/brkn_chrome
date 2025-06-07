@@ -1,9 +1,9 @@
 [
     {
       "slug": "giran-s4br-deck",
-      "name": "Giran S4BR Deck",
+      "name": "Giran Deck",
       "price": "₦100,000",
-      "description": "Gritty street inspired Skateboard Deck with Camo design.",
+      "description": "They don't know thou art Giran and that's why they test you. This one is street-inspired. The camo design is a 10. What else can we say? Come skate like you own the streets.",
       "images": [ "giran.png", "gripside.png" ],
       "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
 
@@ -19,9 +19,9 @@
 
     {
       "slug": "fs-s4br-shirt",
-      "name": "FS S4BR Shirt",
+      "name": "FS Shirt",
       "price": "₦20,000",
-      "description": "We'll leave you to guess what FS means.",
+      "description": "This one is a must-have for every skater. Designed to work with any bottoms. ",
       "images": [ "fs.png", "white-back.png" ],
       "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
 
@@ -39,7 +39,7 @@
         "slug": "itutu-s4br-deck",
         "name": "Itutu S4BR Deck",
         "price": "₦FS",
-        "description": "This one is not available for public sale unfortunately. Tell Wizkid to come and buy.",
+        "description": "Wizkid FC, tap in!! Limited to only members of Wizkid FC. If you nor be FC, abeg dey go front. This one is not available for public sale unfortunately. Tell Wizkid to come and buy.",
         "images": [ "itutu.png", "gripside.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
