@@ -49,24 +49,6 @@ window.addEventListener('pageshow', (e) => {
 
 });
 
-window.addEventListener('DOMContentLoaded', () => {
-    if (!sessionStorage.getItem('loaderShown')) {
-      const loader = document.getElementById('loader');
-      const app = document.getElementById('app');
-
-      // Show loader for a few seconds
-      setTimeout(() => {
-        loader.style.display = 'none';
-        app.style.display = 'block';
-        sessionStorage.setItem('loaderShown', 'true');
-      }, 2000); // 2 seconds
-    } else {
-      // Skip loader
-      document.getElementById('loader').style.display = 'none';
-      document.getElementById('app').style.display = 'block';
-    }
-  });
-
 // 1) Submit search on Enter
 const searchInput = document.querySelector('.site-nav__search');
 searchInput.addEventListener('keydown', e => {
