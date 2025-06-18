@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
 
-    <title>sessions - brknbrds</title>
+    <title>brknbrds – lagos</title>
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
@@ -13,28 +13,24 @@
     <meta content="propagating skateboarding in africa." property="twitter:description"/>
     <meta property="og:type" content="website"/>
     <meta content="summary_large_image" name="twitter:card"/>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="brknbrds lagos" />
+    <meta name="twitter:description" content="skateboarding brand out of lagos!" />
+    <meta name="twitter:image" content="https://brknbrds.com/assets/img/embed-image.png" />
+    <meta property="og:title" content="brknbrds lagos" />
+    <meta property="og:description" content="skateboarding brand out of lagos!" />
+    <meta property="og:image" content="https://brknbrds.com/assets/img/embed-image.png" />
+    <meta property="og:url" content="https://brknbrds.com/" />
+    <meta property="og:type" content="website" />
 
-    <link rel="stylesheet" href="/assets/css/sessions.css" />
-    <link data-n-head="ssr" rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link data-n-head="ssr" rel="icon" type="image/x-icon" href="assets/img/favicon.png">
 
-  <style>
-    /* Page-specific calendar styling */
-    .sessions-page {
-      display: flex;
-      flex-direction: column;
-      height: calc(100vh - 4rem); /* account for nav height */
-    }
-    .sessions-page__iframe {
-      flex: 1;
-      border: none;
-      width: 100%;
-    }
-  </style>
-</head>
+  </head>
 
-<body>
+  <body>
 
- <nav class="site-nav">
+    <nav class="site-nav">
 
       <div class="site-nav__left">
 
@@ -108,14 +104,20 @@
 
     </nav>
 
-  <main class="sessions-page">
-    <!-- Replace the src below with your actual Google Calendar embed URL -->
-    <iframe src="https://calendar.google.com/calendar/embed?src=brknbrds%40gmail.com&ctz=Europe%2FLondon" 
-    class="sessions-page__iframe"
-    title="BRKNBRDS Sessions Calendar" 
-    style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-  </main>
+    <main class="product-page">
+      
+      <header class="product-page__header">
 
-  <script src="assets/js/main.js"></script>
-</body>
-</html>
+        <img class="product-page__title" src="/assets/img/brkn_logo.png"/>
+
+      </header>
+  
+      <div class="product-grid" id="product-grid"></div>
+
+      <div id="tooltip"></div>
+
+    </main>
+
+    <script src="/assets/js/main.js"></script>
+
+  </body>

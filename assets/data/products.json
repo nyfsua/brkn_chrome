@@ -1,6 +1,6 @@
 [
     {
-      "slug": "giran-s4br-deck",
+      "slug": "giran-deck",
       "name": "Giran Deck",
       "price": "₦100,000",
       "description": "They don't know thou art Giran and that's why they test you. This one is street-inspired. The camo design is a 10. What else can we say? Come skate like you own the streets.",
@@ -18,7 +18,7 @@
     },
 
     {
-      "slug": "fs-s4br-shirt",
+      "slug": "fs-shirt",
       "name": "FS Shirt",
       "price": "₦20,000",
       "description": "This one is a must-have for every skater. Designed to work with any bottoms. ",
@@ -36,8 +36,8 @@
   },
 
     {
-        "slug": "itutu-s4br-deck",
-        "name": "Itutu S4BR Deck",
+        "slug": "itutu-deck",
+        "name": "Itutu Deck",
         "price": "₦FS",
         "description": "Wizkid FC, tap in!! Limited to only members of Wizkid FC. If you nor be FC, abeg dey go front. This one is not available for public sale unfortunately. Tell Wizkid to come and buy.",
         "images": [ "itutu.png", "gripside.png" ],
@@ -54,8 +54,8 @@
     },
 
     {
-        "slug": "gxng-s4br-deck",
-        "name": "Gxng S4BR Deck",
+        "slug": "gxng-deck",
+        "name": "Gxng Deck",
         "price": "₦100,000",
         "description": "Community.",
         "images": [ "gxng.png", "gripside.png" ],
@@ -72,8 +72,8 @@
       },
 
       {
-        "slug": "oraca-s4br-socks",
-        "name": "Oraca S4BR Socks",
+        "slug": "oraca-socks",
+        "name": "Oraca Socks",
         "price": "₦10,000",
         "description": "Community.",
         "images": [ "oraca-black.png", "oraca-black.png" ],
@@ -90,8 +90,8 @@
       },
 
       {
-        "slug": "000-s3br-shirt",
-        "name": "000 S3BR Shirt",
+        "slug": "000-shirt",
+        "name": "000 Shirt",
         "price": "₦20,000",
         "description": "000 000 000",
         "images": [ "000.png", "000-front.png" ],
@@ -108,8 +108,8 @@
     },
 
       {
-        "slug": "irony-s4br-socks",
-        "name": "Irony S4BR Socks",
+        "slug": "irony-socks",
+        "name": "Irony Socks",
         "price": "₦10,000",
         "description": "Community.",
         "images": [ "irony-white.png", "irony-white.png" ],
@@ -126,8 +126,8 @@
       },
 
       {
-        "slug": "sticker-pack-s4br",
-        "name": "Sticker Pack S4BR",
+        "slug": "sticker-pack",
+        "name": "Sticker Pack",
         "price": "₦5,000",
         "description": "Community.",
         "images": [ "stickers.png", "stickers-sans.png" ],
@@ -144,8 +144,8 @@
       },
 
       {
-        "slug": "wura-s4br-deck",
-        "name": "Wura S4BR Deck",
+        "slug": "wura-deck",
+        "name": "Wura Deck",
         "price": "₦100,000",
         "description": "Gold.",
         "images": [ "wura.png", "gripside.png" ],
@@ -162,8 +162,8 @@
       },
 
       {
-        "slug": "generis-s4br-wheel",
-        "name": "Generis S4BR Wheel",
+        "slug": "generis-wheel",
+        "name": "Generis Wheel",
         "price": "₦10,000",
         "description": "Gold.",
         "images": [ "wheel.png", "wheel.png" ],
@@ -181,8 +181,8 @@
 
 
       {
-        "slug": "legacy-s4br-deck",
-        "name": "Legacy S4BR Deck",
+        "slug": "legacy-deck",
+        "name": "Legacy Deck",
         "price": "₦100,000",
         "description": "Gritty street inspired Skateboard Deck with Camo design.",
         "images": [ "legacy.png", "gripside.png" ],
@@ -199,8 +199,8 @@
       },
 
       {
-        "slug": "opal-s4br-deck",
-        "name": "Opal S4BR Deck",
+        "slug": "opal-deck",
+        "name": "Opal Deck",
         "price": "₦100,000",
         "description": "Gritty street inspired Skateboard Deck with Camo design.",
         "images": [ "opal.png", "gripside.png" ],
@@ -217,8 +217,8 @@
       },
 
       {
-        "slug": "convergence-s4br-windbreaker",
-        "name": "Convergence S4BR Windbreaker",
+        "slug": "convergence-windbreaker",
+        "name": "Convergence Windbreaker",
         "price": "₦50,000",
         "description": "Polyester Windbreaker. Designed for the West African climate.",
         "images": [ "convergence-front.png", "convergence-back.png" ],
@@ -235,8 +235,8 @@
       },
 
       {
-        "slug": "maelstrom-s4br-deck",
-        "name": "Maelstrom S4BR Deck",
+        "slug": "maelstrom-deck",
+        "name": "Maelstrom Deck",
         "price": "₦100,000",
         "description": "Designed by Leah Okprima for BrknBrds.",
         "images": [ "maelstrom.png", "gripside.png" ],

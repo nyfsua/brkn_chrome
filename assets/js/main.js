@@ -49,6 +49,24 @@ window.addEventListener('pageshow', (e) => {
 
 });
 
+window.addEventListener('DOMContentLoaded', () => {
+    if (!sessionStorage.getItem('loaderShown')) {
+      const loader = document.getElementById('loader');
+      const app = document.getElementById('app');
+
+      // Show loader for a few seconds
+      setTimeout(() => {
+        loader.style.display = 'none';
+        app.style.display = 'block';
+        sessionStorage.setItem('loaderShown', 'true');
+      }, 2000); // 2 seconds
+    } else {
+      // Skip loader
+      document.getElementById('loader').style.display = 'none';
+      document.getElementById('app').style.display = 'block';
+    }
+  });
+
 // 1) Submit search on Enter
 const searchInput = document.querySelector('.site-nav__search');
 searchInput.addEventListener('keydown', e => {
@@ -75,22 +93,22 @@ fetch('/api/products/count')
   document.addEventListener('DOMContentLoaded', () => {
     // 1) Generate the 40 product tiles
     const products = [
-      { file: 'giran.png',   name: 'Giran S4BR Deck',   price: '₦100,000', slug: 'giran-s4br-deck' },
-      { file: 'wheel.png', name: 'Generis S4BR Wheel', price: '₦10,000 x 4', slug: 'generis-s4br-wheel' },
-      { file: 'fs.png', name: 'FS S4BR Shirt', price: '₦20,000', slug: 'fs-s4br-shirt' },      
-      { file: 'convergence-front.png',   name: 'Convergence S4BR Windbreaker',   price: '₦50,000', slug: 'convergence-s4br-windbreaker' },
-      { file: 'itutu.png', name: 'Itutu S4BR Deck', price: '₦FS', slug: 'itutu-s4br-deck' },
-      { file: 'gxng.png', name: 'Gxng S4BR Deck', price: '₦100,000', slug: 'gxng-s4br-deck' },
-      { file: '000.png', name: '000 S3BR Shirt', price: '₦20,000', slug: '000-s3br-shirt' },
-      { file: 'stickers.png', name: 'Stciker Pack S4BR', price: '₦5,000', slug: 'sticker-pack-s4br' },
-      { file: 'irony-white.png', name: 'Irony S4BR Socks', price: '₦10,000', slug: 'irony-s4br-socks' },
-      { file: 'oraca-black.png',   name: 'Oraca S4BR Socks',   price: '₦10,000', slug: 'oraca-s4br-socks' },
-      { file: 'maelstrom.png', name: 'Maelstrom S4BR Deck', price: '₦100,000', slug: 'maelstrom-s4br-deck' },
-      { file: 'legacy.png', name: 'Legacy S4BR Deck', price: '₦100,000', slug: 'legacy-s4br-deck' },
+      { file: 'giran.png',   name: 'Giran Deck',   price: '₦100,000', slug: 'giran-deck' },
+      { file: 'wheel.png', name: 'Generis Wheel', price: '₦10,000 x 4', slug: 'generis-wheel' },
+      { file: 'fs.png', name: 'FS Shirt', price: '₦20,000', slug: 'fs-shirt' },      
+      { file: 'convergence-front.png',   name: 'Convergence Windbreaker',   price: '₦50,000', slug: 'convergence-windbreaker' },
+      { file: 'itutu.png', name: 'Itutu Deck', price: '₦FS', slug: 'itutu-deck' },
+      { file: 'gxng.png', name: 'Gxng Deck', price: '₦100,000', slug: 'gxng-deck' },
+      { file: '000.png', name: '000 Shirt', price: '₦20,000', slug: '000-shirt' },
+      { file: 'stickers.png', name: 'Stciker Pack', price: '₦5,000', slug: 'sticker-pack' },
+      { file: 'irony-white.png', name: 'Irony Socks', price: '₦10,000', slug: 'irony-socks' },
+      { file: 'oraca-black.png',   name: 'Oraca Socks',   price: '₦10,000', slug: 'oraca-socks' },
+      { file: 'maelstrom.png', name: 'Maelstrom Deck', price: '₦100,000', slug: 'maelstrom-deck' },
+      { file: 'legacy.png', name: 'Legac Deck', price: '₦100,000', slug: 'legacy-deck' },
 
-      { file: 'opal.png', name: 'Opal S4BR Deck', price: '₦100,000', slug: 'opal-s4br-deck' },
+      { file: 'opal.png', name: 'Opal Deck', price: '₦100,000', slug: 'opal-deck' },
 
-      { file: 'wura.png', name: 'Wura S4BR Deck', price: '₦100,000', slug: 'wura-s4br-deck' },
+      { file: 'wura.png', name: 'Wura Deck', price: '₦100,000', slug: 'wura-deck' },
 
       // …add any other unique product definitions here…
     ];
