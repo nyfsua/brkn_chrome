@@ -54,6 +54,25 @@
     },
 
     {
+        "slug": "stand",
+        "name": "Skateboard Stand",
+        "price": "₦5,000",
+        "description": "Display your skateboard in style with our Skateboard Stand. Perfect for showcasing your favorite deck when not in use.",
+
+        "images": [ "skateboard-stand.png", "stand-visualiser.png" ],
+        "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
+  
+        "sections": [
+          { "title": "Product Details", "content": "Wizkid." },
+  
+          { "title": "Shipping & Returns", "content": "We ship to all states in Nigeria. We offer 7 days return policy." },
+  
+          { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
+  
+        ]
+    },
+
+    {
         "slug": "gxng-deck",
         "name": "Gxng Deck",
         "price": "₦100,000",

@@ -80,6 +80,7 @@ fetch('/api/products/count')
       { file: 'fs.png', name: 'FS Shirt', price: '₦20,000', slug: 'fs-shirt' },      
       { file: 'convergence-front.png',   name: 'Convergence Windbreaker',   price: '₦50,000', slug: 'convergence-windbreaker' },
       { file: 'itutu.png', name: 'Itutu Deck', price: '₦FS', slug: 'itutu-deck' },
+      { file: 'skateboard-stand.png', name: 'Skateboard Stand', price: '₦5,000', slug: 'stand' },
       { file: 'gxng.png', name: 'Gxng Deck', price: '₦100,000', slug: 'gxng-deck' },
       { file: '000.png', name: '000 Shirt', price: '₦20,000', slug: '000-shirt' },
       { file: 'stickers.png', name: 'Stciker Pack', price: '₦5,000', slug: 'sticker-pack' },
