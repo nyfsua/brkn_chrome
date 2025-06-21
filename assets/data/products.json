@@ -91,8 +91,8 @@
       },
 
       {
-        "slug": "oraca-socks",
-        "name": "Oraca Socks",
+        "slug": "convergence-socks",
+        "name": "Convergence Socks",
         "price": "₦10,000",
         "description": "Community.",
         "images": [ "oraca-black.png", "oraca-black.png" ],
@@ -269,7 +269,44 @@
           { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
   
         ]
-      }
+      },
+
+      {
+        "slug": "convergence-deck",
+        "name": "Convergence Deck",
+        "price": "₦150,000",
+        "description": "tkrds",
+        "images": [ "convergence-deck.png", "gripside.png" ],
+        "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
+  
+        "sections": [
+          { "title": "Product Details", "content": "Designed by Leah Okprima for BrknBrds." },
+  
+          { "title": "Shipping & Returns", "content": "We ship to all states in Nigeria. We offer 7 days return policy." },
+  
+          { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
+  
+        ]
+      },
+
+      {
+        "slug": "convergence-bandana",
+        "name": "Convergence Bandana",
+        "price": "₦5,000",
+        "description": "Display your skateboard in style with our Skateboard Stand. Perfect for showcasing your favorite deck when not in use.",
+
+        "images": [ "bandana.png", "bandana.png" ],
+        "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
+  
+        "sections": [
+          { "title": "Product Details", "content": "Wizkid." },
+  
+          { "title": "Shipping & Returns", "content": "We ship to all states in Nigeria. We offer 7 days return policy." },
+  
+          { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
+  
+        ]
+    }
     
     
 

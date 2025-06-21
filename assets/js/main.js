@@ -76,22 +76,41 @@ fetch('/api/products/count')
     // 1) Generate the 40 product tiles
     const products = [
       { file: 'giran.png',   name: 'Giran Deck',   price: '₦100,000', slug: 'giran-deck' },
-      { file: 'wheel.png', name: 'Generis Wheel', price: '₦10,000 x 4', slug: 'generis-wheel' },
-      { file: 'fs.png', name: 'FS Shirt', price: '₦20,000', slug: 'fs-shirt' },      
-      { file: 'convergence-front.png',   name: 'Convergence Windbreaker',   price: '₦50,000', slug: 'convergence-windbreaker' },
-      { file: 'itutu.png', name: 'Itutu Deck', price: '₦FS', slug: 'itutu-deck' },
-      { file: 'skateboard-stand.png', name: 'Skateboard Stand', price: '₦5,000', slug: 'stand' },
+
       { file: 'gxng.png', name: 'Gxng Deck', price: '₦100,000', slug: 'gxng-deck' },
-      { file: '000.png', name: '000 Shirt', price: '₦20,000', slug: '000-shirt' },
-      { file: 'stickers.png', name: 'Stciker Pack', price: '₦5,000', slug: 'sticker-pack' },
-      { file: 'irony-white.png', name: 'Irony Socks', price: '₦10,000', slug: 'irony-socks' },
-      { file: 'oraca-black.png',   name: 'Oraca Socks',   price: '₦10,000', slug: 'oraca-socks' },
-      { file: 'maelstrom.png', name: 'Maelstrom Deck', price: '₦100,000', slug: 'maelstrom-deck' },
+
       { file: 'legacy.png', name: 'Legac Deck', price: '₦100,000', slug: 'legacy-deck' },
+
+      { file: 'itutu.png', name: 'Itutu Deck', price: '₦FS', slug: 'itutu-deck' },
+          
+      { file: 'convergence-front.png',   name: 'Convergence Windbreaker',   price: '₦50,000', slug: 'convergence-windbreaker' },
+
+      { file: 'bandana.png',   name: 'Convergence Bandana',   price: '₦10,000', slug: 'convergence-bandana' },
+
+      { file: 'oraca-black.png',   name: 'Convergence Socks',   price: '₦10,000', slug: 'convergence-socks' },
+
+      { file: 'convergence-deck.png',   name: 'Convergence Deck',   price: '₦150,000', slug: 'convergence-deck' },
+
+      { file: 'wheel.png', name: 'Generis Wheel', price: '₦10,000 x 4', slug: 'generis-wheel' },
+
+      { file: 'skateboard-stand.png', name: 'Skateboard Stand', price: '₦5,000', slug: 'stand' },
+
+      { file: 'irony-white.png', name: 'Irony Socks', price: '₦10,000', slug: 'irony-socks' },
+
+      { file: 'stickers.png', name: 'Stciker Pack', price: '₦5,000', slug: 'sticker-pack' },
+
+      { file: 'fs.png', name: 'FS Shirt', price: '₦20,000', slug: 'fs-shirt' },
+
+      { file: '000.png', name: '000 Shirt', price: '₦20,000', slug: '000-shirt' },  
+      
+      { file: 'maelstrom.png', name: 'Maelstrom Deck', price: '₦100,000', slug: 'maelstrom-deck' },
 
       { file: 'opal.png', name: 'Opal Deck', price: '₦100,000', slug: 'opal-deck' },
 
       { file: 'wura.png', name: 'Wura Deck', price: '₦100,000', slug: 'wura-deck' },
+
+      
+
 
       // …add any other unique product definitions here…
     ];
