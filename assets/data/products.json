@@ -91,11 +91,11 @@
       },
 
       {
-        "slug": "convergence-socks",
-        "name": "Convergence Socks",
+        "slug": "kerosene-socks",
+        "name": "Kerosene Socks",
         "price": "₦10,000",
         "description": "Community.",
-        "images": [ "convergence-socks.png", "convergence-socks.png" ],
+        "images": [ "Kerosene-socks.png", "Kerosene-socks.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [
@@ -236,11 +236,11 @@
       },
 
       {
-        "slug": "convergence-windbreaker",
-        "name": "Convergence Windbreaker",
+        "slug": "kerosene-windbreaker",
+        "name": "Kerosene Windbreaker",
         "price": "₦50,000",
         "description": "Polyester Windbreaker. Designed for the West African climate.",
-        "images": [ "convergence-front.png", "convergence-back.png" ],
+        "images": [ "Kerosene-front.png", "Kerosene-back.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [
@@ -272,11 +272,11 @@
       },
 
       {
-        "slug": "convergence-deck",
-        "name": "Convergence Deck",
+        "slug": "kerosene-deck",
+        "name": "Kerosene Deck",
         "price": "₦150,000",
         "description": "tkrds",
-        "images": [ "convergence-deck.png", "gripside.png" ],
+        "images": [ "Kerosene-deck.png", "gripside.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [
@@ -290,12 +290,12 @@
       },
 
       {
-        "slug": "convergence-bandana",
-        "name": "Convergence Bandana",
+        "slug": "kerosene-bandana",
+        "name": "Kerosene Bandana",
         "price": "₦5,000",
         "description": "Display your skateboard in style with our Skateboard Stand. Perfect for showcasing your favorite deck when not in use.",
 
-        "images": [ "bandana.png", "bandana.png" ],
+        "images": [ "kerosene-bandana.png", "kerosene-bandana.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [

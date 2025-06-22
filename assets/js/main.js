@@ -83,13 +83,13 @@ fetch('/api/products/count')
 
       { file: 'itutu.png', name: 'Itutu Deck', price: '₦FS', slug: 'itutu-deck' },
           
-      { file: 'convergence-front.png',   name: 'Convergence Windbreaker',   price: '₦50,000', slug: 'convergence-windbreaker' },
+      { file: 'kerosene-front.png',   name: 'Kerosene Windbreaker',   price: '₦50,000', slug: 'kerosene-windbreaker' },
 
-      { file: 'bandana.png',   name: 'Convergence Bandana',   price: '₦10,000', slug: 'convergence-bandana' },
+      { file: 'kerosene-bandana.png',   name: 'Kerosene Bandana',   price: '₦10,000', slug: 'kerosene-bandana' },
 
-      { file: 'convergence-socks.png',   name: 'Convergence Socks',   price: '₦10,000', slug: 'convergence-socks' },
+      { file: 'kerosene-socks.png',   name: 'Kerosene Socks',   price: '₦10,000', slug: 'kerosene-socks' },
 
-      { file: 'convergence-deck.png',   name: 'Convergence Deck',   price: '₦150,000', slug: 'convergence-deck' },
+      { file: 'kerosene-deck.png',   name: 'Kerosene Deck',   price: '₦150,000', slug: 'kerosene-deck' },
 
       { file: 'wheel.png', name: 'Generis Wheel', price: '₦10,000 x 4', slug: 'generis-wheel' },
 
