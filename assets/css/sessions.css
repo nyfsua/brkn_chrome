@@ -10,8 +10,8 @@
     overflow-y: auto;
     font-family: 'Vetica', sans-serif;
     font-size: 0.75rem;
-    background: #BBBBBB;
-    color: #BBBBBB;
+    background: #111111;
+    color: #111111;
     overflow-x: hidden;
     scroll-behavior: smooth;
   }
@@ -35,9 +35,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #333333;
+    background-color: #111111;
     padding: 1rem var(--edge-gap);
-    color: #FFFFFF;
+    color: #f0f0f3;
     font-size: 0.75rem;           /* matches the small text in your mock */
     font-family: 'Vetica', sans-serif;
     text-transform: uppercase;
@@ -53,8 +53,8 @@
   .site-nav__search {
     background: none;
     border: none;
-    border-bottom: 1px solid #FFFFFF;
-    color: #FFFFFF;
+    border-bottom: 1px solid #f0f0f3;
+    color: #f0f0f3;
     font: inherit;
     padding: 0.25rem 0;
     width: 12rem;                  /* adjust to taste */
@@ -77,7 +77,7 @@
   .site-nav__item { }
   
   .site-nav__link {
-    color: #FFFFFF;
+    color: #f0f0f3;
     text-decoration: none;
     white-space: nowrap;
   }

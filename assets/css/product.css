@@ -19,7 +19,7 @@
   body {
     font-family: 'Vetica', sans-serif;
     font-size: 0.75rem;
-    background: #BBBBBB;
+    background: #111111;
     color: #111111;
     overflow-x: hidden;
     height: 100vh;
@@ -37,14 +37,15 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      background-color: #333333;
+      background-color: #111111;
       padding: 1rem var(--edge-gap);
-      color: #FFFFFF;
+      color: #F0F0F3;
       font-size: 0.75rem;           /* matches the small text in your mock */
       font-family: 'Vetica', sans-serif;
       letter-spacing: 0.5rem;
       text-transform: uppercase;
       letter-spacing: 0.05em;
+      border-bottom: 1px groove #F0F0F3;
     }
     
     .site-nav__left,
@@ -56,8 +57,8 @@
     .site-nav__search {
       background: none;
       border: none;
-      border-bottom: 1px solid #FFFFFF;
-      color: #FFFFFF;
+      border-bottom: 1px solid #F0F0F3;
+      color: #F0F0F3;
       font: inherit;
       padding: 0.25rem 0;
       width: 12rem;                  /* adjust to taste */
@@ -80,7 +81,7 @@
     .site-nav__item { }
     
     .site-nav__link {
-      color: #FFFFFF;
+      color: #F0F0F3;
       text-decoration: none;
       white-space: nowrap;
     }
@@ -124,7 +125,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-right: 1px solid #FFFFFF;
+    border-right: 1px solid #F0F0F3;
   }
   #main-img {
     width: 72%;
@@ -146,7 +147,7 @@
     transition: border-color 0.2s;
   }
   .product-detail__thumbnails img.active {
-    border-color: #FFFFFF;
+    border-color: #F0F0F3;
   }
   
   /* Info panel */
@@ -159,7 +160,7 @@
     text-transform: uppercase;
     letter-spacing: -0.05rem;
     margin-bottom: 0.5rem;
-    color: #FFFFFF;
+    color: #F0F0F3;
   }
   .product-detail__price {
     font-size: 1rem;
@@ -175,7 +176,7 @@
   }
   .product-detail__divider {
     border: none;
-    border-top: 1px solid #FFFFFF;
+    border-top: 1px solid #F0F0F3;
     margin: 1rem 0;
   }
   
@@ -194,7 +195,7 @@
   }
   .size-toggle button.active {
     background: #111111;
-    color: #BBBBBB;
+    color: #111111;
   }
   
   /* Size select */
@@ -210,14 +211,14 @@
   /* Delivery date */
   .delivery-date {
     font-size: 1rem;
-    color: #333333;
+    color: #111111;
     margin-bottom: 52rem;
   }
   
   /* Buttons */
   .button {
-    background: #b3b2b2;
-    color: #ffffff;
+    background: #222222;
+    color: #F0F0F3;
     border: none;
     padding: 0.75rem;
     text-transform: uppercase;
@@ -228,12 +229,12 @@
   }
   .button:hover {
     background: #c4c4c4;
-    color: #ffffff;
+    color: #F0F0F3;
   }
   .link-button {
     background: none;
     border: none;
-    color: #ffffff;
+    color: #F0F0F3;
     text-decoration: underline;
     margin-bottom: 1rem;
   }
@@ -310,7 +311,7 @@
       text-transform: uppercase;
       letter-spacing: 0.05em;
       text-decoration: none;
-      color: #FFFFFF;
+      color: #F0F0F3;
     }
     
     .product-page__title {
@@ -334,7 +335,7 @@
     order: 1;
     flex: 0 0 40vh;        /* fixed 50% height */
     border-right: none;
-    border-bottom: 1px solid #FFFFFF;
+    border-bottom: 1px solid #F0F0F3;
 
   }
   #main-img {
@@ -358,7 +359,7 @@
     transition: border-color 0.2s;
   }
   .product-detail__thumbnails img.active {
-    border-color: #FFFFFF;
+    border-color: #F0F0F3;
   }
   
   /* Info panel */
@@ -376,7 +377,7 @@
     text-transform: uppercase;
     letter-spacing: -0.05rem;
     margin-bottom: 0.5rem;
-    color: #FFFFFF;
+    color: #F0F0F3;
   }
   .product-detail__price {
     font-size: 1rem;
@@ -392,21 +393,21 @@
   }
   .product-detail__divider {
     border: none;
-    border-top: 1px solid #FFFFFF;
+    border-top: 1px solid #F0F0F3;
     margin: 1rem 0;
   }
   
   /* Delivery date */
   .delivery-date {
     font-size: 1rem;
-    color: #333333;
+    color: #111111;
     margin-bottom: 2rem;
   }
   
   /* Buttons */
   .button {
     background: #b3b2b2;
-    color: #ffffff;
+    color: #F0F0F3;
     border: none;
     padding: 0.75rem;
     text-transform: uppercase;
@@ -417,12 +418,12 @@
   }
   .button:hover {
     background: #c4c4c4;
-    color: #ffffff;
+    color: #F0F0F3;
   }
   .link-button {
     background: none;
     border: none;
-    color: #ffffff;
+    color: #F0F0F3;
     text-decoration: underline;
     margin-bottom: 1rem;
   }

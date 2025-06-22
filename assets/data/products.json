@@ -95,7 +95,7 @@
         "name": "Convergence Socks",
         "price": "₦10,000",
         "description": "Community.",
-        "images": [ "oraca-black.png", "oraca-black.png" ],
+        "images": [ "convergence-socks.png", "convergence-socks.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [

@@ -87,7 +87,7 @@ fetch('/api/products/count')
 
       { file: 'bandana.png',   name: 'Convergence Bandana',   price: '₦10,000', slug: 'convergence-bandana' },
 
-      { file: 'oraca-black.png',   name: 'Convergence Socks',   price: '₦10,000', slug: 'convergence-socks' },
+      { file: 'convergence-socks.png',   name: 'Convergence Socks',   price: '₦10,000', slug: 'convergence-socks' },
 
       { file: 'convergence-deck.png',   name: 'Convergence Deck',   price: '₦150,000', slug: 'convergence-deck' },
 
