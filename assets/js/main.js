@@ -115,7 +115,7 @@ fetch('/api/products/count')
       // …add any other unique product definitions here…
     ];
   
-    const total = 40;
+    const total = 32;
     const grid  = document.getElementById('product-grid');
   
     for (let i = 0; i < total; i++) {
