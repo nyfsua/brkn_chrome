@@ -238,9 +238,27 @@
       {
         "slug": "kerosene-windbreaker",
         "name": "Kerosene Windbreaker",
-        "price": "₦50,000",
+        "price": "₦100,000",
         "description": "Polyester Windbreaker. Designed for the West African climate.",
         "images": [ "Kerosene-front.png", "Kerosene-back.png" ],
+        "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
+  
+        "sections": [
+          { "title": "Product Details", "content": "Community." },
+  
+          { "title": "Shipping & Returns", "content": "We ship to all states in Nigeria. We offer 7 days return policy." },
+  
+          { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
+  
+        ]
+      },
+
+      {
+        "slug": "kerosene-shirt",
+        "name": "Kerosene Shirt",
+        "price": "₦20,000",
+        "description": "Polyester Windbreaker. Designed for the West African climate.",
+        "images": [ "kerosene-shirt.png", "KERO-SHIRT-BACK.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [
@@ -259,6 +277,24 @@
         "price": "₦100,000",
         "description": "Designed by Leah Okprima for BrknBrds.",
         "images": [ "maelstrom.png", "gripside.png" ],
+        "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
+  
+        "sections": [
+          { "title": "Product Details", "content": "Designed by Leah Okprima for BrknBrds." },
+  
+          { "title": "Shipping & Returns", "content": "We ship to all states in Nigeria. We offer 7 days return policy." },
+  
+          { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
+  
+        ]
+      },
+
+      {
+        "slug": "felt-bag",
+        "name": "Skatedeck Felt Bag",
+        "price": "₦5,000",
+        "description": "Designed by Leah Okprima for BrknBrds.",
+        "images": [ "felt-bag.png", "felt-back.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [

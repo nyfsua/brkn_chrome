@@ -79,9 +79,9 @@ fetch('/api/products/count')
 
       { file: 'gxng.png', name: 'Gxng Deck', price: '₦100,000', slug: 'gxng-deck' },
 
-      { file: 'legacy.png', name: 'Legac Deck', price: '₦100,000', slug: 'legacy-deck' },
-
       { file: 'itutu.png', name: 'Itutu Deck', price: '₦FS', slug: 'itutu-deck' },
+
+      { file: 'kerosene-deck.png',   name: 'Kerosene Deck',   price: '₦150,000', slug: 'kerosene-deck' },
           
       { file: 'kerosene-front.png',   name: 'Kerosene Windbreaker',   price: '₦50,000', slug: 'kerosene-windbreaker' },
 
@@ -89,9 +89,13 @@ fetch('/api/products/count')
 
       { file: 'kerosene-socks.png',   name: 'Kerosene Socks',   price: '₦10,000', slug: 'kerosene-socks' },
 
-      { file: 'kerosene-deck.png',   name: 'Kerosene Deck',   price: '₦150,000', slug: 'kerosene-deck' },
+      { file: 'kerosene-shirt.png',   name: 'Kerosene Shirt',   price: '₦20,000', slug: 'kerosene-shirt' },
 
       { file: 'wheel.png', name: 'Generis Wheel', price: '₦10,000 x 4', slug: 'generis-wheel' },
+
+      { file: 'legacy.png', name: 'Legacy Deck', price: '₦100,000', slug: 'legacy-deck' },
+      
+      { file: 'felt-bag.png', name: 'Skateboard Felt Bag', price: '₦5,000', slug: 'felt-bag' },
 
       { file: 'skateboard-stand.png', name: 'Skateboard Stand', price: '₦5,000', slug: 'stand' },
 
