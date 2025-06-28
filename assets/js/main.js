@@ -85,27 +85,29 @@ fetch('/api/products/count')
           
       { file: 'kerosene-front.png',   name: 'Kerosene Windbreaker',   price: '₦50,000', slug: 'kerosene-windbreaker' },
 
-      { file: 'kerosene-bandana.png',   name: 'Kerosene Bandana',   price: '₦10,000', slug: 'kerosene-bandana' },
+      { file: 'kerosene-shirt.png',   name: 'Kerosene Shirt',   price: '₦20,000', slug: 'kerosene-shirt' },
 
       { file: 'kerosene-socks.png',   name: 'Kerosene Socks',   price: '₦10,000', slug: 'kerosene-socks' },
 
-      { file: 'kerosene-shirt.png',   name: 'Kerosene Shirt',   price: '₦20,000', slug: 'kerosene-shirt' },
+      { file: 'kerosene-bandana.png',   name: 'Kerosene Bandana',   price: '₦10,000', slug: 'kerosene-bandana' },
 
-      { file: 'wheel.png', name: 'Generis Wheel', price: '₦10,000 x 4', slug: 'generis-wheel' },
+      { file: '000-front.png', name: '000 Shirt', price: '₦20,000', slug: '000-shirt' },  
+
+      { file: 'crash-poetics.png', name: '000 Deck', price: '₦150,000', slug: 'crash-poetics' },
 
       { file: 'legacy.png', name: 'Legacy Deck', price: '₦100,000', slug: 'legacy-deck' },
+
+      { file: 'wheel.png', name: 'Generis Wheel', price: '₦10,000 x 4', slug: 'generis-wheel' },
       
       { file: 'felt-bag.png', name: 'Skateboard Felt Bag', price: '₦5,000', slug: 'felt-bag' },
 
-      { file: 'skateboard-stand.png', name: 'Skateboard Stand', price: '₦5,000', slug: 'stand' },
+      { file: 'fs.png', name: 'FS Shirt', price: '₦20,000', slug: 'fs-shirt' },
 
       { file: 'irony-white.png', name: 'Irony Socks', price: '₦10,000', slug: 'irony-socks' },
 
       { file: 'stickers.png', name: 'Stciker Pack', price: '₦5,000', slug: 'sticker-pack' },
 
-      { file: 'fs.png', name: 'FS Shirt', price: '₦20,000', slug: 'fs-shirt' },
-
-      { file: '000.png', name: '000 Shirt', price: '₦20,000', slug: '000-shirt' },  
+      { file: 'skateboard-stand.png', name: 'Skateboard Stand', price: '₦5,000', slug: 'stand' },
       
       { file: 'maelstrom.png', name: 'Maelstrom Deck', price: '₦100,000', slug: 'maelstrom-deck' },
 

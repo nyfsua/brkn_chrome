@@ -113,7 +113,25 @@
         "name": "000 Shirt",
         "price": "₦20,000",
         "description": "000 000 000",
-        "images": [ "000.png", "000-front.png" ],
+        "images": [ "000-front.png", "000.png" ],
+        "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
+  
+        "sections": [
+          { "title": "Product Details", "content": "Wizkid." },
+  
+          { "title": "Shipping & Returns", "content": "We ship to all states in Nigeria. We offer 7 days return policy." },
+  
+          { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
+  
+        ]
+    },
+
+    {
+        "slug": "crash-poetics",
+        "name": "000 Deck",
+        "price": "₦150,000",
+        "description": "000 000 000",
+        "images": [ "crash-poetics.png", "gripside.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [
