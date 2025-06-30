@@ -10,8 +10,8 @@
     overflow-y: auto;
     font-family: 'Vetica', sans-serif;
     font-size: 0.75rem;
-    background: #111111;
-    color: #111111;
+    background: #000000;
+    color: #000000;
     overflow-x: hidden;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
@@ -38,7 +38,7 @@
   .loader {
     position: fixed;
     inset: 0;
-    background-color: #111111;
+    background-color: #000000;
     overflow: hidden;    /* only lock scroll while loader is up */
     z-index: 9999; /* ensure it’s on top of everything */
   }
@@ -121,7 +121,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #111111;
+  background-color: #000000;
   padding: 1rem var(--edge-gap);
   color: #F0F0F3;
   font-size: 0.75rem;           /* matches the small text in your mock */
