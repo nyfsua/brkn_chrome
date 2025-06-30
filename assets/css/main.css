@@ -192,6 +192,21 @@
   z-index: 2;
 }
 
+.video-container__image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  max-width: 1000px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 900;
+  line-height: 1.6;
+  color: white;
+  z-index: 2;
+}
+
 .image-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
