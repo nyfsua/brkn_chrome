@@ -79,7 +79,11 @@ fetch('/api/products/count')
 
       { file: 'gxng.png', name: 'Gxng Deck', price: '₦100,000', slug: 'gxng-deck' },
 
-      { file: 'itutu.png', name: 'Itutu Deck', price: '₦FS', slug: 'itutu-deck' },
+      { file: '000-front.png', name: '000 Shirt', price: '₦20,000', slug: '000-shirt' },  
+
+      { file: 'crash-poetics.png', name: '000 Deck', price: '₦150,000', slug: '000-deck' },
+
+      { file: 'crashpoetics-pack.png', name: 'Crash Poetics Pack', price: '₦250,000', slug: 'crash-poetics' },
 
       { file: 'kerosene-deck.png',   name: 'Kerosene Deck',   price: '₦150,000', slug: 'kerosene-deck' },
           
@@ -91,13 +95,9 @@ fetch('/api/products/count')
 
       { file: 'kerosene-bandana.png',   name: 'Kerosene Bandana',   price: '₦10,000', slug: 'kerosene-bandana' },
 
-      { file: '000-front.png', name: '000 Shirt', price: '₦20,000', slug: '000-shirt' },  
+      { file: 'titanium.png', name: 'Titanium Truck x2', price: '₦85,000', slug: 'titanium-truck' },
 
-      { file: 'crash-poetics.png', name: '000 Deck', price: '₦150,000', slug: 'crash-poetics' },
-
-      { file: 'legacy.png', name: 'Legacy Deck', price: '₦100,000', slug: 'legacy-deck' },
-
-      { file: 'wheel.png', name: 'Generis Wheel', price: '₦10,000 x 4', slug: 'generis-wheel' },
+      { file: 'wheel.png', name: 'Generis Wheel x4', price: '₦40,000', slug: 'generis-wheel' },
       
       { file: 'felt-bag.png', name: 'Skateboard Felt Bag', price: '₦5,000', slug: 'felt-bag' },
 
@@ -108,12 +108,16 @@ fetch('/api/products/count')
       { file: 'stickers.png', name: 'Stciker Pack', price: '₦5,000', slug: 'sticker-pack' },
 
       { file: 'skateboard-stand.png', name: 'Skateboard Stand', price: '₦5,000', slug: 'stand' },
+
+      { file: 'legacy.png', name: 'Legacy Deck', price: '₦100,000', slug: 'legacy-deck' },
       
       { file: 'maelstrom.png', name: 'Maelstrom Deck', price: '₦100,000', slug: 'maelstrom-deck' },
 
       { file: 'opal.png', name: 'Opal Deck', price: '₦100,000', slug: 'opal-deck' },
 
       { file: 'wura.png', name: 'Wura Deck', price: '₦100,000', slug: 'wura-deck' },
+
+      { file: 'itutu.png', name: 'Itutu Deck', price: '₦FS', slug: 'itutu-deck' },
 
       
 

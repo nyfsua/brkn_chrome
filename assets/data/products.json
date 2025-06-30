@@ -127,11 +127,29 @@
     },
 
     {
-        "slug": "crash-poetics",
+        "slug": "000-deck",
         "name": "000 Deck",
         "price": "₦150,000",
         "description": "000 000 000",
         "images": [ "crash-poetics.png", "gripside.png" ],
+        "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
+  
+        "sections": [
+          { "title": "Product Details", "content": "Wizkid." },
+  
+          { "title": "Shipping & Returns", "content": "We ship to all states in Nigeria. We offer 7 days return policy." },
+  
+          { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
+  
+        ]
+    },
+
+    {
+        "slug": "crash poetics",
+        "name": "Crash Poetics Pack",
+        "price": "₦250,000",
+        "description": "000 000 000",
+        "images": [ "crashpoetics-pack.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [
@@ -204,6 +222,24 @@
         "price": "₦10,000",
         "description": "Gold.",
         "images": [ "wheel.png", "wheel.png" ],
+        "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
+  
+        "sections": [
+          { "title": "Product Details", "content": "Gold." },
+  
+          { "title": "Shipping & Returns", "content": "We ship to all states in Nigeria. We offer 7 days return policy." },
+  
+          { "title": "Warranty", "content": "We offer no warranty on Skateboards." }
+  
+        ]
+      },
+
+      {
+        "slug": "titanium-truck",
+        "name": "Titanium Truck x2",
+        "price": "₦85,000",
+        "description": "Gold.",
+        "images": [ "titanium.png", "titanium.png" ],
         "delivery": { "from": "2025-05-19", "to":   "2025-05-22" },
   
         "sections": [
